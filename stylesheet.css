@@ -1,0 +1,16 @@
+input {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+.employeeLine {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.submit:hover, button:hover {
+  color: gray;
+  -webkit-box-shadow: 0.5px 0.5px 1px 0px rgba(184,182,184,1);
+  -moz-box-shadow: 0.5px 0.5px 1px 0px rgba(184,182,184,1);
+  box-shadow: 0.5px 0.5px 1px 0px rgba(184,182,184,1);
+}

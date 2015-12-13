@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Salary Calculation</title>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+
+  <body>
+    <form class="employeeInfo">
+      <label for="employeeFirstName">Employee First Name</label>
+      <input type="text" id="employeeFirstName" name="employeeFirstName" />
+
+      <label for="employeeLastName">Employee Last Name</label>
+      <input type="text" id="employeeLastName" name="employeeLastName" />
+
+      <label for="employeeID">Employee ID</label>
+      <input type="text" id="employeeID" name="employeeID" />
+
+      <label for="employeeTitle">Employee Title</label>
+      <input type="text" id="employeeTitle" name="employeeTitle" />
+
+      <label for="employeeSalary">Employee Yearly Salary</label>
+      <input type="number" name="employeeSalary" min=0 max=999999999/>
+
+      <input class="submit" type="submit" value="Submit Employee" />
+    </form>
+
+    <div class="formDisplay">
+    </div>
+    <div class="results">
+      <button class="calcResults">Calculate Total Monthly Salary</button>
+    </div>
+  </body>
+</html>
